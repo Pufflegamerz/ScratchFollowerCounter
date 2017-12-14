@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scratch Follower Counter</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.scratch.mit.edu/scratchr2/static/__868b8818d76143ec272057b47660c443__/css/main.css">
+	<link rel="shortcut icon" href="favicon.png" />
+</head>
+<body>
+<center>
+	<img src="logo.png">
+	<br>
+	<input id="username">
+	<br>
+	<button onclick="generate()">Generate!</button>
+</center>
+</body>
+<style type="text/css">
+#result {
+	margin-top: 10px;
+	animation-name: extend;
+    animation-duration: 1s;
+    overflow: hidden;
+    width: 400px;
+    height: 100px;
+    background-color: lightgreen;
+}
+@keyframes extend {
+    from {height: 0px;}
+    to {height: 100px;}
+}
+
+</style>
+</html>
