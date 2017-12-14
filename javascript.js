@@ -6,7 +6,7 @@ if (window.location.href.includes("#")) { // Check if hashtag is in url
             var found = $('h2', data);
             document.write(found[0].innerHTML.match(/\(([^)]+)\)/)[1]);
     	}).fail(function(err){
-    		document.write("Error");
+    		document.write("Error"); // Nobody will notice...
 		});
 	});
 }
